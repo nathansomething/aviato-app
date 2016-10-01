@@ -1,20 +1,20 @@
 #main_navbar {
+
   margin: 0;
   padding: 0;
   box-shadow: 0 0 5px 10px #6097FD;
   border-radius: 0;
   border: 0;
+
   background-color: #6097FD;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../IMAGES/aviato-logo.png");
-  height: 300px;
-  width: 100%; }
-  #main_navbar ul {
+
+  ul {
     position: absolute;
     bottom: 30px;
-    right: 20px; }
-    #main_navbar ul li {
+    right: 20px;
+    li {
       display: inline;
       width: 300px;
       list-style: none;
@@ -24,16 +24,22 @@
       border: 1px solid #000;
       border-radius: 5px;
       color: #9fc1ff;
-      font-size: 26px; }
-      #main_navbar ul li:hover {
+      font-size: 26px;
+
+      &:hover {
         opacity: 0.7;
-        cursor: pointer; }
+        cursor: pointer;
+      }
+
+    }
+  }
+
+  background-image: url("../IMAGES/aviato-logo.png");
+  height: 300px;
+  width: 100%;
+
   @media only screen and (min-width: 1000px) {
-    #main_navbar {
-      background-image: url("../IMAGES/aviato-logo.png");
-      height: 400px; } }
-
-body p {
-  color: green; }
-
-/*# sourceMappingURL=main.css.map */
+    background-image: url("../IMAGES/aviato-logo.png");
+    height: 400px;
+  }
+}

@@ -1,24 +1,21 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-<meta charset="UTF-8"></meta>
-<meta name="viewport" content="width=device-width"></meta>
-<title>Aviato</title>
-<link rel="stylesheet"
-	th:href="@{https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css}"></link>
-<link rel="stylesheet"
-	th:href="@{https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css}"></link>
-<script
-	th:src="@{https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js}"></script>
-<script
-	th:src="@{https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js}"></script>
-<link th:href="@{resources/CSS/main.css}" href="resources/CSS/main.css"  rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8"></meta>
+  <meta name="viewport" content="width=device-width"></meta>
+  <title>Aviato</title>
+  <script th:src="@{https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js}"></script>
+  <link rel="stylesheet" th:href="@{https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css}"></link>
+  <link rel="stylesheet" th:href="@{https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css}"></link>
+  <script th:src="@{https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js}"></script>
+  <link th:href="@{resources/CSS/main.css}" href="resources/CSS/main.css"  rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-	<h2>Home</h2>
-	<div class="container">
-      <p th:text="${serverTime}"></p>
-    </div>
+  <div th:replace="navbar"></div>
+  <div th:replace="info"></div>
+  <footer class="footer">
+    <p th:text="${serverTime}"></p>
+  </footer>
 </body>
 </html>
