@@ -1,0 +1,24 @@
+{
+  "name": "advance",
+  "description": "Application that connects volunteer seekers with non-profits seeking voluneers",
+  "main": "index.js",
+  "authors": [
+    "Nathan Goodman <Nathan.something@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/nathansomething/advance",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.6",
+    "google-fonts": "*",
+    "jquery": "^2.2.4"
+  }
+}
