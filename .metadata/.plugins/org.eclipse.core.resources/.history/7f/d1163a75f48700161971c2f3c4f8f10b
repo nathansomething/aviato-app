@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="ProviderPage">
+	<head>
+    <meta charset="UTF-8"></meta>
+    <script src="/vender/_bower.js"></script>
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css"></link>
+    <link href='https://fonts.googleapis.com/css?family=Cabin|Roboto' rel='stylesheet' type='text/css'></link>
+	</head>
+	<body>
+    <div th:replace="provider/nav"></div>
+    <!-- <div class="container">
+      <div th:replace="provider/postings"></div>
+     </div>
+    <div class="container">
+      <div th:replace="provider/applicants"></div>
+     </div> -->
+	</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"></meta>
+<meta name="viewport" content="width=device-width"></meta>
+<title>Aviato</title>
+<link rel="stylesheet"
+	th:href="@{https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css}"></link>
+<link rel="stylesheet"
+	th:href="@{https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css}"></link>
+<script
+	th:src="@{https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js}"></script>
+<script
+	th:src="@{https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js}"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<h1>Advance Volunteering: Seeker Page</h1>
+		</div>
+	</nav>
+	<div class="container">
+		<p>At Advance Volunteering, we connect citizens seeking out
+			Volunteer Work with top of the line non-profits who can help them
+			make a difference</p>
+	</div>
+	<div class="container">
+		<video controls="">
+			<source th:src="@{/resources/VIDEO/sample.mp4}" type="video/mp4" />
+		</video>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-3">
+				<form>
+					<input type="text" class="form-control" placeholder="Username" />
+					<input type="password" class="form-control" placeholder="Password" />
+					<button class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

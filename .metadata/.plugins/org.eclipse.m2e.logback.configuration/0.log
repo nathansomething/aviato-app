@@ -1,0 +1,727 @@
+2016-10-01 12:19:12,957 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.advance:volunteering:1.0.0-BUILD-SNAPSHOT @ /home/nathan/Documents/Projects/aviato-app/web-app/pom.xml.
+2016-10-01 12:19:17,240 [Worker-12] INFO  c.g.e.m.p.f.l.DefaultNodeAndNPMInstaller - Node v5.3.0 is already installed.
+2016-10-01 12:19:17,716 [Worker-12] INFO  c.g.e.m.p.f.l.DefaultNodeAndNPMInstaller - NPM 3.3.12 is already installed.
+2016-10-01 12:19:17,746 [Worker-12] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Running 'npm install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:19:22,735 [Thread-16] WARN  c.g.e.m.p.f.lib.DefaultNpmRunner - npm WARN EPACKAGEJSON advanced_volunteering@1.0.0 No repository field.
+2016-10-01 12:19:22,779 [Worker-12] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:19:26,067 [Worker-12] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:19:28,691 [Thread-19] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:19:29,887 [Thread-19] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:19:29,919 [Thread-19] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:19:29,919 [Thread-19] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:19:30,567 [Thread-19] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:19:30,567 [Thread-19] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:19:30,752 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:19:30,772 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:19:30,789 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:19:30,790 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:19:33,555 [Worker-14] INFO  c.g.e.m.p.f.l.DefaultNodeAndNPMInstaller - Node v5.3.0 is already installed.
+2016-10-01 12:19:33,577 [Worker-14] INFO  c.g.e.m.p.f.l.DefaultNodeAndNPMInstaller - NPM 3.3.12 is already installed.
+2016-10-01 12:19:33,579 [Worker-14] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Running 'npm install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:19:39,018 [Thread-23] WARN  c.g.e.m.p.f.lib.DefaultNpmRunner - npm WARN EPACKAGEJSON advanced_volunteering@1.0.0 No repository field.
+2016-10-01 12:19:39,037 [Worker-14] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:19:40,894 [Worker-14] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:19:42,676 [Thread-26] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:19:43,743 [Thread-26] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:19:43,785 [Thread-26] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:19:43,785 [Thread-26] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:19:44,381 [Thread-26] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:19:44,381 [Thread-26] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:19:44,391 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:19:44,392 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:19:44,394 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:19:44,395 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:19:46,563 [Worker-0] INFO  c.g.e.m.p.f.l.DefaultNodeAndNPMInstaller - Node v5.3.0 is already installed.
+2016-10-01 12:19:46,574 [Worker-0] INFO  c.g.e.m.p.f.l.DefaultNodeAndNPMInstaller - NPM 3.3.12 is already installed.
+2016-10-01 12:19:46,575 [Worker-0] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Running 'npm install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:19:51,403 [Thread-33] WARN  c.g.e.m.p.f.lib.DefaultNpmRunner - npm WARN EPACKAGEJSON advanced_volunteering@1.0.0 No repository field.
+2016-10-01 12:19:51,450 [Worker-0] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:19:53,477 [Worker-0] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:19:55,538 [Thread-36] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:19:56,245 [Thread-36] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:19:56,275 [Thread-36] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:19:56,275 [Thread-36] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:19:56,642 [Thread-36] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:19:56,642 [Thread-36] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:19:56,658 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:19:56,659 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:19:56,661 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:19:56,661 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:19:58,168 [Worker-1] INFO  c.g.e.m.p.f.l.DefaultNodeAndNPMInstaller - Node v5.3.0 is already installed.
+2016-10-01 12:19:58,171 [Worker-1] INFO  c.g.e.m.p.f.l.DefaultNodeAndNPMInstaller - NPM 3.3.12 is already installed.
+2016-10-01 12:19:58,183 [Worker-1] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Running 'npm install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:20:03,071 [Thread-39] WARN  c.g.e.m.p.f.lib.DefaultNpmRunner - npm WARN EPACKAGEJSON advanced_volunteering@1.0.0 No repository field.
+2016-10-01 12:20:03,099 [Worker-1] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:20:04,918 [Worker-1] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:20:06,447 [Thread-42] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:20:07,335 [Thread-42] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:20:07,367 [Thread-42] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:20:07,367 [Thread-42] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:20:07,891 [Thread-42] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:20:07,892 [Thread-42] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:20:07,905 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:20:07,906 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:20:07,910 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:20:07,911 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:20:09,527 [Worker-13] INFO  c.g.e.m.p.f.l.DefaultNodeAndNPMInstaller - Node v5.3.0 is already installed.
+2016-10-01 12:20:09,545 [Worker-13] INFO  c.g.e.m.p.f.l.DefaultNodeAndNPMInstaller - NPM 3.3.12 is already installed.
+2016-10-01 12:20:09,547 [Worker-13] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Running 'npm install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:20:13,978 [Thread-45] WARN  c.g.e.m.p.f.lib.DefaultNpmRunner - npm WARN EPACKAGEJSON advanced_volunteering@1.0.0 No repository field.
+2016-10-01 12:20:14,001 [Worker-13] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:20:15,953 [Worker-13] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:20:17,828 [Thread-48] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:20:18,721 [Thread-48] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:20:18,759 [Thread-48] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:20:18,779 [Thread-48] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:20:19,306 [Thread-48] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:20:19,306 [Thread-48] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:20:19,315 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:20:19,316 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:20:19,317 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:20:19,318 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:20:22,576 [Worker-1] INFO  c.g.e.m.p.f.l.DefaultNodeAndNPMInstaller - Node v5.3.0 is already installed.
+2016-10-01 12:20:22,597 [Worker-1] INFO  c.g.e.m.p.f.l.DefaultNodeAndNPMInstaller - NPM 3.3.12 is already installed.
+2016-10-01 12:20:22,598 [Worker-1] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Running 'npm install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:20:27,364 [Thread-51] WARN  c.g.e.m.p.f.lib.DefaultNpmRunner - npm WARN EPACKAGEJSON advanced_volunteering@1.0.0 No repository field.
+2016-10-01 12:20:27,377 [Worker-1] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:20:28,620 [Worker-1] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:20:30,131 [Thread-54] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:20:30,865 [Thread-54] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:20:30,896 [Thread-54] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:20:30,896 [Thread-54] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:20:31,173 [Thread-54] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:20:31,173 [Thread-54] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:20:31,182 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:20:31,183 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:20:31,185 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:20:31,191 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:21:32,055 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:21:32,060 [Worker-4] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:21:33,481 [Worker-4] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:21:34,909 [Thread-58] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:21:35,650 [Thread-58] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:21:35,691 [Thread-58] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:21:35,691 [Thread-58] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:21:36,078 [Thread-58] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:21:36,078 [Thread-58] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:21:36,087 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:21:36,089 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:21:36,090 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:21:36,091 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:21:36,209 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:21:36,211 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B mvn jetty:run
+2016-10-01 12:21:59,865 [Worker-18] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:21:59,865 [Worker-18] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B jetty:run
+2016-10-01 12:22:50,676 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:22:50,677 [Worker-19] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:22:52,095 [Worker-19] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:22:53,223 [Thread-72] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:22:53,711 [Thread-72] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:22:53,728 [Thread-72] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:22:53,728 [Thread-72] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:22:53,985 [Thread-72] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:22:53,985 [Thread-72] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:22:53,994 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:22:53,997 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:22:54,001 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:22:54,001 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:23:07,889 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:23:07,890 [Worker-1] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:23:09,053 [Worker-1] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:23:10,107 [Thread-82] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:23:10,565 [Thread-82] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:23:10,583 [Thread-82] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:23:10,583 [Thread-82] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:23:10,803 [Thread-82] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:23:10,803 [Thread-82] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:23:10,811 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:23:10,811 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:23:10,812 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:23:10,813 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:23:31,459 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:23:31,461 [Worker-11] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:23:32,503 [Worker-11] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:23:33,416 [Thread-91] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:23:33,929 [Thread-91] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:23:33,953 [Thread-91] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:23:33,953 [Thread-91] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:23:34,294 [Thread-91] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:23:34,294 [Thread-91] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:23:34,303 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:23:34,304 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:23:34,305 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:23:34,306 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:23:56,797 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:23:56,798 [Worker-15] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:23:58,257 [Worker-15] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:23:59,421 [Thread-98] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:23:59,946 [Thread-98] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:23:59,951 [Thread-98] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:23:59,952 [Thread-98] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:24:00,438 [Thread-98] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:24:00,438 [Thread-98] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:24:00,449 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:24:00,450 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:24:00,452 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:24:00,452 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:24:36,274 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:24:36,276 [Worker-4] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:24:37,223 [Worker-4] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:24:38,067 [Thread-115] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:24:38,470 [Thread-115] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:24:38,487 [Thread-115] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:24:38,487 [Thread-115] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:24:38,767 [Thread-115] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:24:38,767 [Thread-115] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:24:38,778 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:24:38,778 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:24:38,779 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:24:38,780 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:24:52,758 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:24:52,764 [Worker-15] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:24:53,895 [Worker-15] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:24:54,853 [Thread-128] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:24:55,265 [Thread-128] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:24:55,287 [Thread-128] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:24:55,287 [Thread-128] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:24:55,521 [Thread-128] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:24:55,521 [Thread-128] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:24:55,531 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:24:55,532 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:24:55,533 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:24:55,533 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:25:10,379 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:25:10,384 [Worker-15] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:25:11,254 [Worker-15] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:25:12,227 [Thread-135] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:25:12,630 [Thread-135] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:25:12,648 [Thread-135] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:25:12,648 [Thread-135] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:25:12,859 [Thread-135] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:25:12,860 [Thread-135] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:25:12,867 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:25:12,868 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:25:12,869 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:25:12,870 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:25:49,975 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:25:49,976 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B jetty:run
+2016-10-01 12:28:45,969 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:28:45,970 [Worker-8] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:28:46,990 [Worker-8] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:28:47,920 [Thread-167] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:28:48,359 [Thread-167] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:28:48,377 [Thread-167] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:28:48,377 [Thread-167] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:28:48,609 [Thread-167] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:28:48,609 [Thread-167] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:28:48,623 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:28:48,623 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:28:48,628 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:28:48,631 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:28:54,977 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:28:54,981 [Worker-10] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:28:55,937 [Worker-10] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:28:56,809 [Thread-182] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:28:57,267 [Thread-182] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:28:57,283 [Thread-182] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:28:57,283 [Thread-182] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:28:57,495 [Thread-182] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:28:57,495 [Thread-182] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:28:57,507 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:28:57,507 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:28:57,509 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:28:57,510 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:31:09,378 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:31:09,379 [Worker-20] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:31:10,242 [Worker-20] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:31:11,067 [Thread-188] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:31:11,607 [Thread-188] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:31:11,617 [Thread-188] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:31:11,618 [Thread-188] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:31:11,818 [Thread-188] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:31:11,818 [Thread-188] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:31:11,827 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:31:11,827 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:31:11,829 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:31:11,830 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:31:17,656 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:31:17,657 [Worker-7] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:31:18,741 [Worker-7] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:31:19,538 [Thread-192] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:31:20,111 [Thread-192] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:31:20,142 [Thread-192] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:31:20,142 [Thread-192] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:31:20,459 [Thread-192] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:31:20,459 [Thread-192] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:31:20,473 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:31:20,474 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:31:20,475 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:31:20,476 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:32:21,032 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:32:21,032 [Worker-21] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:32:21,830 [Worker-21] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:32:23,103 [Thread-196] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:32:23,529 [Thread-196] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:32:23,546 [Thread-196] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:32:23,546 [Thread-196] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:32:23,763 [Thread-196] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:32:23,763 [Thread-196] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:32:23,773 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:32:23,773 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:32:23,774 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:32:23,775 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:32:40,017 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:32:40,018 [Worker-22] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:32:40,996 [Worker-22] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:32:41,745 [Thread-201] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:32:42,337 [Thread-201] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:32:42,363 [Thread-201] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:32:42,363 [Thread-201] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:32:42,687 [Thread-201] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:32:42,687 [Thread-201] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:32:42,698 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:32:42,699 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:32:42,700 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:32:42,700 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:33:31,949 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:33:31,949 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B jetty:run
+2016-10-01 12:33:53,690 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:33:53,692 [Worker-21] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:33:54,597 [Worker-21] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:33:55,456 [Thread-205] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:33:55,852 [Thread-205] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:33:55,868 [Thread-205] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:33:55,868 [Thread-205] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:33:56,076 [Thread-205] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:33:56,076 [Thread-205] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:33:56,082 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:33:56,083 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:33:56,084 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:33:56,084 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:34:12,779 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:34:12,781 [Worker-7] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:34:13,671 [Worker-7] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:34:14,604 [Thread-209] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:34:15,128 [Thread-209] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:34:15,149 [Thread-209] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:34:15,149 [Thread-209] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:34:15,426 [Thread-209] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:34:15,426 [Thread-209] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:34:15,433 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:34:15,433 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:34:15,434 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:34:15,435 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:35:59,381 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:35:59,382 [Worker-11] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:36:00,266 [Worker-11] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:36:01,314 [Thread-226] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:36:01,754 [Thread-226] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:36:01,757 [Thread-226] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:36:01,757 [Thread-226] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:36:01,978 [Thread-226] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:36:01,978 [Thread-226] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:36:01,989 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:36:01,990 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:36:01,993 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:36:01,993 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:36:03,032 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:36:03,033 [Worker-20] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:36:03,861 [Worker-20] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:36:04,653 [Thread-231] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:36:05,131 [Thread-231] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:36:05,162 [Thread-231] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:36:05,162 [Thread-231] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:36:05,522 [Thread-231] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:36:05,522 [Thread-231] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:36:05,538 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:36:05,538 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:36:05,539 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:36:05,540 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:36:17,065 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:36:17,065 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B jetty:run
+2016-10-01 12:41:26,185 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:41:26,186 [Worker-20] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:41:27,481 [Worker-20] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:41:28,855 [Thread-238] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:41:29,480 [Thread-238] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:41:29,497 [Thread-238] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:41:29,498 [Thread-238] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:41:29,816 [Thread-238] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:41:29,819 [Thread-238] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:41:29,829 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:41:29,829 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:41:29,830 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:41:29,831 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:41:34,689 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:41:34,690 [Worker-24] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:41:35,675 [Worker-24] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:41:36,551 [Thread-243] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:41:37,035 [Thread-243] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:41:37,052 [Thread-243] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:41:37,052 [Thread-243] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:41:37,324 [Thread-243] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:41:37,325 [Thread-243] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:41:37,337 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:41:37,338 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:41:37,340 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:41:37,340 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:41:41,358 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:41:41,358 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B jetty:run
+2016-10-01 12:42:22,839 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:42:22,840 [Worker-25] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:42:24,045 [Worker-25] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:42:25,244 [Thread-249] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:42:25,825 [Thread-249] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:42:25,853 [Thread-249] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:42:25,853 [Thread-249] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:42:26,105 [Thread-249] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:42:26,105 [Thread-249] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:42:26,113 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:42:26,113 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:42:26,114 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:42:26,115 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:42:40,451 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:42:40,451 [Worker-22] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:42:41,618 [Worker-22] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:42:42,491 [Thread-259] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:42:42,940 [Thread-259] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:42:42,958 [Thread-259] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:42:42,958 [Thread-259] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:42:43,240 [Thread-259] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:42:43,240 [Thread-259] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:42:43,248 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:42:43,249 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:42:43,249 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:42:43,250 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:42:48,619 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:42:48,622 [Worker-27] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:42:49,416 [Worker-27] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:42:50,471 [Thread-269] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:42:51,002 [Thread-269] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:42:51,022 [Thread-269] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:42:51,022 [Thread-269] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:42:51,272 [Thread-269] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:42:51,272 [Thread-269] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:42:51,280 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:42:51,280 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:42:51,281 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:42:51,282 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:43:04,730 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:43:04,731 [Worker-22] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:43:05,744 [Worker-22] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:43:06,687 [Thread-278] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:43:07,157 [Thread-278] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:43:07,175 [Thread-278] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:43:07,175 [Thread-278] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:43:07,500 [Thread-278] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:43:07,501 [Thread-278] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:43:07,512 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:43:07,512 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:43:07,514 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:43:07,514 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:43:12,662 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:43:12,663 [Worker-23] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:43:13,698 [Worker-23] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:43:14,702 [Thread-290] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:43:15,183 [Thread-290] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:43:15,205 [Thread-290] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:43:15,206 [Thread-290] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:43:15,517 [Thread-290] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:43:15,517 [Thread-290] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:43:15,529 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:43:15,530 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:43:15,532 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:43:15,533 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:43:17,926 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:43:17,927 [Worker-20] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:43:18,930 [Worker-20] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:43:20,092 [Thread-301] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:43:20,734 [Thread-301] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:43:20,753 [Thread-301] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:43:20,753 [Thread-301] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:43:20,961 [Thread-301] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:43:20,961 [Thread-301] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:43:20,968 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:43:20,969 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:43:20,970 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:43:20,970 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:43:22,128 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:43:22,129 [Worker-7] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:43:22,952 [Worker-7] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:43:23,816 [Thread-308] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:43:24,377 [Thread-308] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:43:24,404 [Thread-308] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:43:24,404 [Thread-308] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:43:24,726 [Thread-308] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:43:24,726 [Thread-308] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:43:24,737 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:43:24,737 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:43:24,738 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:43:24,739 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:43:32,599 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:43:32,599 [Worker-23] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:43:33,643 [Worker-23] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:43:34,528 [Thread-318] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:43:35,126 [Thread-318] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:43:35,149 [Thread-318] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:43:35,149 [Thread-318] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:43:35,470 [Thread-318] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:43:35,470 [Thread-318] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:43:35,480 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:43:35,480 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:43:35,481 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:43:35,482 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:43:37,598 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:43:37,599 [Worker-23] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:43:38,426 [Worker-23] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:43:39,227 [Thread-324] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:43:39,771 [Thread-324] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:43:39,787 [Thread-324] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:43:39,787 [Thread-324] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:43:40,116 [Thread-324] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:43:40,116 [Thread-324] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:43:40,125 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:43:40,126 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:43:40,126 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:43:40,127 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:43:42,205 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:43:42,206 [Worker-25] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:43:43,015 [Worker-25] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:43:43,802 [Thread-331] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:43:44,225 [Thread-331] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:43:44,239 [Thread-331] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:43:44,240 [Thread-331] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:43:44,531 [Thread-331] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:43:44,531 [Thread-331] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:43:44,541 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:43:44,541 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:43:44,542 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:43:44,547 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:43:45,604 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:43:45,604 [Worker-25] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:43:46,476 [Worker-25] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:43:47,463 [Thread-337] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:43:48,003 [Thread-337] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:43:48,018 [Thread-337] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:43:48,018 [Thread-337] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:43:48,266 [Thread-337] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:43:48,266 [Thread-337] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:43:48,273 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:43:48,274 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:43:48,275 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:43:48,276 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:43:58,367 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:43:58,368 [Worker-28] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:43:59,716 [Worker-28] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:44:00,723 [Thread-343] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:44:01,394 [Thread-343] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:44:01,417 [Thread-343] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:44:01,417 [Thread-343] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:44:01,753 [Thread-343] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:44:01,754 [Thread-343] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:44:01,765 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:44:01,766 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:44:01,767 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:44:01,768 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:44:07,203 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:44:07,203 [Worker-22] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:44:08,374 [Worker-22] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:44:09,356 [Thread-347] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:44:09,778 [Thread-347] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:44:09,794 [Thread-347] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:44:09,794 [Thread-347] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:44:10,012 [Thread-347] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:44:10,012 [Thread-347] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:44:10,024 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:44:10,024 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:44:10,025 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:44:10,025 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:44:16,125 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:44:16,125 [Worker-7] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:44:17,071 [Worker-7] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:44:18,141 [Thread-353] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:44:18,538 [Thread-353] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:44:18,552 [Thread-353] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:44:18,552 [Thread-353] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:44:18,771 [Thread-353] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:44:18,771 [Thread-353] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:44:18,778 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:44:18,778 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:44:18,779 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:44:18,779 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:44:19,799 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:44:19,800 [Worker-25] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:44:20,594 [Worker-25] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:44:21,987 [Thread-358] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:44:22,983 [Thread-358] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:44:23,110 [Thread-358] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:44:23,110 [Thread-358] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:44:23,530 [Thread-358] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:44:23,530 [Thread-358] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:44:23,542 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:44:23,543 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:44:23,544 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:44:23,544 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:44:43,052 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:44:43,053 [Worker-27] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:44:44,312 [Worker-27] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:44:45,563 [Thread-374] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:44:46,173 [Thread-374] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:44:46,195 [Thread-374] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:44:46,196 [Thread-374] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:44:46,561 [Thread-374] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:44:46,562 [Thread-374] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:44:46,574 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:44:46,574 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:44:46,575 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:44:46,575 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:44:49,030 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:44:49,031 [Worker-27] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:44:50,142 [Worker-27] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:44:51,223 [Thread-382] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:44:51,667 [Thread-382] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:44:51,687 [Thread-382] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:44:51,687 [Thread-382] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:44:51,910 [Thread-382] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:44:51,910 [Thread-382] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:44:51,919 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:44:51,920 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:44:51,920 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:44:51,921 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:44:58,461 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:44:58,462 [Worker-29] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:44:59,214 [Worker-29] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:45:00,020 [Thread-395] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:45:00,473 [Thread-395] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:45:00,491 [Thread-395] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:45:00,491 [Thread-395] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:45:00,712 [Thread-395] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:45:00,712 [Thread-395] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:45:00,720 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:45:00,720 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:45:00,721 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:45:00,721 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:45:23,626 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:45:23,626 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B jetty:run
+2016-10-01 12:46:57,172 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aviato:webapp:1.0.0-BUILD-SNAPSHOT @ /home/nathan/Documents/Projects/aviato-app/web-app/pom.xml.
+2016-10-01 12:46:58,473 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:46:58,480 [Worker-7] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:46:59,289 [Worker-7] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:47:00,418 [Thread-409] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:47:00,921 [Thread-409] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:47:00,939 [Thread-409] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:47:00,940 [Thread-409] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:47:01,156 [Thread-409] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:47:01,156 [Thread-409] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:47:01,262 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:47:01,266 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:47:01,268 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:47:01,268 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:47:01,276 [Worker-7] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of web-app
+2016-10-01 12:47:01,277 [Worker-7] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for web-app
+2016-10-01 12:47:01,286 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:47:08,104 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aviato:webapp:1.0.0-BUILD-SNAPSHOT @ /home/nathan/Documents/Projects/aviato-app/web-app/pom.xml.
+2016-10-01 12:47:09,017 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:47:09,033 [Worker-20] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:47:09,796 [Worker-20] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:47:10,726 [Thread-418] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:47:11,276 [Thread-418] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:47:11,297 [Thread-418] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:47:11,297 [Thread-418] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:47:11,591 [Thread-418] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:47:11,591 [Thread-418] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:47:11,764 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:47:11,770 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:47:11,780 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:47:11,801 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:47:11,801 [Worker-20] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of web-app
+2016-10-01 12:47:11,801 [Worker-20] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for web-app
+2016-10-01 12:47:11,809 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:47:19,623 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:47:19,624 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B jetty:run
+2016-10-01 12:47:49,868 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:47:49,869 [Worker-27] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:47:50,808 [Worker-27] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:47:51,605 [Thread-422] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:47:52,101 [Thread-422] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:47:52,118 [Thread-422] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:47:52,118 [Thread-422] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:47:52,336 [Thread-422] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:47:52,336 [Thread-422] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:47:52,344 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:47:52,344 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:47:52,345 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:47:52,345 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:48:40,802 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:48:40,802 [Worker-23] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:48:41,778 [Worker-23] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:48:42,550 [Thread-428] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:48:42,953 [Thread-428] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:48:42,973 [Thread-428] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:48:42,973 [Thread-428] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:48:43,232 [Thread-428] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:48:43,232 [Thread-428] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:48:43,241 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:48:43,242 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:48:43,244 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:48:43,244 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:49:45,040 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:49:45,050 [Worker-29] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:49:46,391 [Worker-29] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:49:47,370 [Thread-436] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:49:47,776 [Thread-436] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:49:47,798 [Thread-436] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:49:47,798 [Thread-436] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:49:48,052 [Thread-436] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:49:48,052 [Thread-436] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:49:48,059 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:49:48,060 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:49:48,064 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:49:48,064 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:50:15,600 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:50:15,601 [Worker-26] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:50:16,520 [Worker-26] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:50:17,381 [Thread-443] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:50:17,820 [Thread-443] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:50:17,849 [Thread-443] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:50:17,849 [Thread-443] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:50:18,141 [Thread-443] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:50:18,142 [Thread-443] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:50:18,150 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:50:18,151 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:50:18,152 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:50:18,153 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-01 12:50:42,239 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:50:42,239 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B jetty:run
+2016-10-01 12:55:07,349 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:55:07,349 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B jetty:run
+2016-10-01 12:55:33,237 [Worker-30] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:55:33,237 [Worker-30] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B jetty:run
+2016-10-01 12:56:55,031 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 12:56:55,033 [Worker-23] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:56:56,012 [Worker-23] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:56:57,233 [Thread-465] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 12:56:57,786 [Thread-465] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 12:56:57,808 [Thread-465] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:56:57,809 [Thread-465] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 12:56:58,102 [Thread-465] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 12:56:58,102 [Thread-465] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 12:56:58,119 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:56:58,120 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:56:58,120 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 12:56:58,121 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 12:57:05,377 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 12:57:05,377 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B jetty:run
+2016-10-01 13:00:40,576 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-01 13:00:40,577 [Worker-34] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 13:00:41,488 [Worker-34] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in /home/nathan/Documents/Projects/aviato-app/web-app
+2016-10-01 13:00:42,297 [Thread-470] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-01 13:00:42,711 [Thread-470] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-01 13:00:42,731 [Thread-470] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 13:00:42,731 [Thread-470] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-01 13:00:42,940 [Thread-470] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-01 13:00:42,941 [Thread-470] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-01 13:00:42,951 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 13:00:42,951 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-01 13:00:42,952 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-01 13:00:42,952 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

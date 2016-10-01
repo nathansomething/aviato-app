@@ -1,0 +1,27 @@
+package com.advance.volunteering;
+
+import java.text.DateFormat;
+import java.util.Date;
+import java.util.Locale;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class SeekerController {
+
+	@RequestMapping(value = "/seekers", method = RequestMethod.GET)
+	public ModelAndView seekers(Locale locale, Model model) {
+		ModelAndView mv = new ModelAndView();
+		System.out.println("Starting up Seekers Page");
+		Date date = new Date();
+		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
+		String formattedDate = dateFormat.format(date);
+		mv.addObject("serverTime", formattedDate);
+		mv.setViewName("seekers_home");
+		return mv;
+	}
+}

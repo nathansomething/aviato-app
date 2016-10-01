@@ -3,8 +3,4 @@ node/
 node_modules/
 target/
 vendor/
-.settings/
-.metadata/
 .sass-cache
-.project
-.classpath

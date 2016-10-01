@@ -1,0 +1,38 @@
+<nav class="navbar" ng-controller="ProviderNavbar"
+	style="background-color: black">
+	<div class="fluid-container">
+		<div class="row">
+			<div class="col-md-2">
+				<img src="@{/resources/IMG/advance.png}"
+					class="imgLogo" alt="Logo" />
+			</div>
+			<div class="col-md-3 col-md-offset-1">
+				<h1 class="name">${sessionScope.user.organization}</h1>
+			</div>
+			<div class="col-md-2">
+				<div class="btn-group" uib-dropdown="" is-open="false"
+					auto-close="outsideClick">
+					<button id="notifications" type="button"
+						class="btn btn-primary module" uib-dropdown-toggle="">
+						Notifications (0)<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" uib-dropdown-menu="" role="menu"
+						aria-labelledby="notifications">
+						<li role="menuitem"><a href="#">A Notification</a></li>
+						<li role="menuitem"><a href="#">Another Notification</a></li>
+						<li class="divider"></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<button type="button" class="btn btn-primary module">Preferences</button>
+			</div>
+			<div class="col-md-2">
+				<button type="button" class="btn btn-primary module"
+					id="logoutId" onclick="location.href='logout'">
+					<span class="glyphicon glyphicon-user"></span> Logout
+				</button>
+			</div>
+		</div>
+	</div>
+</nav>
