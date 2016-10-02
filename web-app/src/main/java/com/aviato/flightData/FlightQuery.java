@@ -173,7 +173,7 @@ public class FlightQuery {
     passengers.add("childCount", new JsonPrimitive(0));
     passengers.add("seniorCount", new JsonPrimitive(0));
 
-    slice.add(departure);
+    slice.add(departure); 
 
     request.add("slice", slice);
     request.add("passengers", passengers);
