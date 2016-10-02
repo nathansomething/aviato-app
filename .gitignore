@@ -5,3 +5,4 @@ target/
 vendor/
 .sass-cache
 .metadata/*
+.recommenders/*
