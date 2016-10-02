@@ -20,7 +20,7 @@ import com.google.gson.JsonParser;
  */
 public class FlightQuery {
   /**
-   * Main method for Flight Query. It takes input data from the Controller, initializes the URL
+   * Flight Query. It takes input data from the Controller, initializes the URL
    * (which has the API key), type of request, pushes a JSON request as string via DataOutputStream
    * to the API, gets a JSON (String) back as response via DataInputStream, and converts the string
    * to a JsonObject.
@@ -40,21 +40,30 @@ public class FlightQuery {
    *          We send the request via formatting our json as string and then via DataOutputStream,
    *          and then receive a JSON via DataInputStream, and we then convert that json string
    *          into a JsonObject.
-   * Part 5.
    */
-  //public static void main(String[] args) {
-    public JsonObject cleanJson = getJsonFromApi("BOS", "ATL", "2016-10-02");
-  //}
+    private JsonObject finalJson;    
+    public FlightQuery(String currentLocation, String destinationLocation, String date) {
+        finalJson = getJsonFromApi(currentLocation, destinationLocation, date);
+    }
+    
+    /**
+     * This method returns the JsonObject created in the constructor.
+     * @return cleanJson;
+     */
+    public JsonObject getJson() {
+        return finalJson;
+    }
+    
 
   /**
    * This method takes care of submitting a JSON (String) to the QPX API and retrieving a JSON,
    * returning a JsonObject.
    * @param currentLocation   A String, the current location.
    * @param destinationLocation   The destination location.
-   * @param date1 The date to depart.
+   * @param date The date to depart.
    * @return  JsonObject of the response from API
    */
-  public JsonObject getJsonFromApi(String currentLocation, String destinationLocation, String date1) {
+  public JsonObject getJsonFromApi(String currentLocation, String destinationLocation, String date) {
     URL url;
     HttpURLConnection con;
     DataOutputStream out;
@@ -64,7 +73,7 @@ public class FlightQuery {
     JsonObject queryResult = new JsonObject();
     try {
       //method to take string location and find nearest airport city
-
+        
       /**
        * Part 2. URL setup.
        */
@@ -85,11 +94,11 @@ public class FlightQuery {
        * Part 4a. Output.
        */
       out = new DataOutputStream(con.getOutputStream());
-      out.writeBytes(createJSONRequest(currentLocation, destinationLocation, date1));
+      out.writeBytes(createJSONRequest(currentLocation, destinationLocation, date));
       out.flush();
       out.close();
 
-      System.out.println(createJSONRequest(currentLocation, destinationLocation, date1));
+      System.out.println(createJSONRequest(currentLocation, destinationLocation, date));
 
       /**
        * Part 4b. Server Response.
@@ -104,9 +113,6 @@ public class FlightQuery {
        */
       input = new DataInputStream(con.getInputStream());
 
-      //  Supposedly reads the contents of the InputStream as String, doesn't work.
-      // String response = input.readUTF();
-
       // Using StringBuilder should work
       int c;
       resultBuf = new StringBuilder();
@@ -119,7 +125,6 @@ public class FlightQuery {
       /**
        * Part 4c. Create JsonObject.
        */
-      // Json parser parses string response and creates a JsonObject
       parser = new JsonParser();
       queryResult = parser.parse(response).getAsJsonObject();
 
@@ -141,32 +146,26 @@ public class FlightQuery {
    * Part 1. Creates a JSonObject given the parameters and returns the object as a String.
    * @param curr  current location
    * @param dest  destination
-   * @param date1  date of departure to destination
+   * @param date  date of departure to destination
    * @return a String representation of the Json Object with the given parameters
    */
-  public String createJSONRequest(String curr, String dest, String date1) {
+  public String createJSONRequest(String curr, String dest, String date) {
     JsonObject output = new JsonObject();
 
     JsonObject request = new JsonObject();
 
     JsonObject passengers = new JsonObject();
     JsonArray slice = new JsonArray();
-//    JsonObject solutions = new JsonObject();
-//    JsonObject refundable = new JsonObject();
 
     JsonObject departure = new JsonObject();
-    JsonObject arrival = new JsonObject();
+    
     JsonPrimitive current = new JsonPrimitive(curr);
     JsonPrimitive destination = new JsonPrimitive(dest);
-    JsonPrimitive departDate = new JsonPrimitive(date1);
+    JsonPrimitive departDate = new JsonPrimitive(date);
 
     departure.add("origin", current);
     departure.add("destination", destination);
     departure.add("date", departDate);
-
-//    arrival.add("origin", destination);
-//    arrival.add("destination", current);
-//    arrival.add("date", arriveDate);
 
     passengers.add("adultCount", new JsonPrimitive(2));
     passengers.add("infantInLapCount", new JsonPrimitive(0));
@@ -175,7 +174,6 @@ public class FlightQuery {
     passengers.add("seniorCount", new JsonPrimitive(0));
 
     slice.add(departure);
-//    slice.add(arrival);
 
     request.add("slice", slice);
     request.add("passengers", passengers);

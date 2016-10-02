@@ -1,4 +1,5 @@
 package com.aviato.webapp;
+import com.aviato.flightData.*;
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
@@ -9,6 +10,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
+import com.google.gson.JsonObject;
+
 
 @Controller
 public class MainController {
@@ -51,4 +54,21 @@ public class MainController {
 		mv.setViewName("about");
 		return mv;
 	}
+	
+	@RequestMapping(value = "/flightdata", method = RequestMethod.GET)
+    public ModelAndView flightdata(Locale locale) {
+        ModelAndView mv = new ModelAndView();
+        System.out.println("Navigating to Flight Data");
+        Date date = new Date();
+        DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
+        String formattedDate = dateFormat.format(date);
+        System.out.println(formattedDate);
+        mv.addObject("serverTime", formattedDate.toString());
+        
+        mv.setViewName("flightdata");
+        JsonObject myFlight = new FlightQuery("BOS", "ATL", "2016-10-2").getJson();
+        mv.addObject("Flight Data", myFlight);
+        
+        return mv;
+    }
 }
