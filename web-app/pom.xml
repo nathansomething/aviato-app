@@ -120,15 +120,12 @@
 			<version>4.7</version>
 			<scope>test</scope>
 		</dependency>
-<<<<<<< HEAD
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<version>1.16.10</version>
 			<scope>provided</scope>
 		</dependency>
-=======
->>>>>>> e1a7402ff2f798c87471d9ee7064747135e3d127
 	   <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
 	   <dependency>
 	      	<groupId>com.google.code.gson</groupId>
@@ -140,10 +137,6 @@
             <artifactId>google-api-services-qpxExpress</artifactId>
             <version>v1-rev21-1.22.0</version>
         </dependency>
-<<<<<<< HEAD
-=======
-	   	
->>>>>>> e1a7402ff2f798c87471d9ee7064747135e3d127
 	</dependencies>
 	<build>
 		<plugins>

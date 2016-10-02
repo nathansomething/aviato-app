@@ -12,14 +12,13 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 import com.google.gson.JsonObject;
 
-<<<<<<< HEAD
 
 import com.aviato.pojos.FlightData;
-=======
->>>>>>> e1a7402ff2f798c87471d9ee7064747135e3d127
+
 
 @Controller
 public class MainController {
@@ -46,14 +45,13 @@ public class MainController {
 	}
 
 	@RequestMapping(value = "/get_flight_info", method = RequestMethod.POST)
-	public ModelAndView home(@ModelAttribute FlightData flightData) {
+	public void home(@ModelAttribute FlightData flightData) {
 		System.out.println("IN POST REQUEST");
-		System.out.println(flightData.getStartingLocation());
-		System.out.println(flightData.getDestination());
-		System.out.println(flightData.getTravelDate());
-		ModelAndView mv = new ModelAndView();
-		mv.setViewName("home");
-		return mv;
+		// SAVE THIS IN THE DATABASE
+		JsonObject flightDataJson = new FlightQuery(
+				flightData.getStartingLocation(),
+				flightData.getDestination(),
+				flightData.getTravelDate().toString()).getJson();
 	}
 
 	@RequestMapping(value = "/register", method = RequestMethod.GET)
@@ -81,10 +79,7 @@ public class MainController {
 		mv.setViewName("about");
 		return mv;
 	}
-<<<<<<< HEAD
-}
 
-=======
 	
 	@RequestMapping(value = "/flightdata", method = RequestMethod.GET)
     public ModelAndView flightdata(Locale locale) {
@@ -103,4 +98,4 @@ public class MainController {
         return mv;
     }
 }
->>>>>>> e1a7402ff2f798c87471d9ee7064747135e3d127
+
