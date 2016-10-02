@@ -8165,3 +8165,37 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected ST
 2016-10-02 08:11:46,199 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2016-10-02 08:11:46,202 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-10-02 08:11:46,204 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-02 09:01:21,851 [Worker-101] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aviato:webapp:1.0.0-BUILD-SNAPSHOT @ C:\Users\Amal\Documents\Aviato\aviato-app\web-app\pom.xml.
+2016-10-02 09:01:22,224 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.pom
+2016-10-02 09:01:22,245 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.pom
+2016-10-02 09:01:22,292 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar
+2016-10-02 09:01:22,474 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar
+2016-10-02 09:01:23,390 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-02 09:01:23,396 [Worker-101] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in C:\Users\Amal\Documents\Aviato\aviato-app\web-app
+2016-10-02 09:01:25,075 [Worker-101] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in C:\Users\Amal\Documents\Aviato\aviato-app\web-app
+2016-10-02 09:01:26,254 [Thread-1693] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-02 09:01:26,847 [Thread-1693] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-02 09:01:26,850 [Thread-1693] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-02 09:01:26,850 [Thread-1693] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-02 09:01:27,420 [Thread-1693] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-02 09:01:27,421 [Thread-1693] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-02 09:01:27,555 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-02 09:01:27,558 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-02 09:01:27,560 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-02 09:01:27,561 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-02 09:01:27,563 [Worker-101] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of web-app
+2016-10-02 09:01:27,564 [Worker-101] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for web-app
+2016-10-02 09:01:27,569 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-02 09:01:29,699 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2016-10-02 09:01:29,700 [Worker-108] INFO  c.g.e.m.p.f.lib.DefaultBowerRunner - Running 'bower install' in C:\Users\Amal\Documents\Aviato\aviato-app\web-app
+2016-10-02 09:01:30,939 [Worker-108] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running 'grunt default' in C:\Users\Amal\Documents\Aviato\aviato-app\web-app
+2016-10-02 09:01:32,196 [Thread-1700] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "bower_concat:all" (bower_concat) task
+2016-10-02 09:01:32,988 [Thread-1700] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - File vendor/_bower.js created.
+2016-10-02 09:01:33,006 [Thread-1700] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-02 09:01:33,007 [Thread-1700] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Running "sass:dist" (sass) task
+2016-10-02 09:01:33,538 [Thread-1700] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - 
+2016-10-02 09:01:33,538 [Thread-1700] INFO  c.g.e.m.p.f.lib.DefaultGruntRunner - Done.
+2016-10-02 09:01:33,555 [Worker-108] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-02 09:01:33,560 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-02 09:01:33,569 [Worker-108] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-10-02 09:01:33,570 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
