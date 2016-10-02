@@ -1,0 +1,6 @@
+package com.aviato.pojos;
+
+public class DesperatePerson {
+
+	String name;
+}

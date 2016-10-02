@@ -1,0 +1,12 @@
+package com.aviato.pojos;
+
+import java.util.Date;
+
+@Data
+public class DesperatePerson {
+
+	String firstName;
+	String lastName;
+	Date birthday;
+	String gender;
+}

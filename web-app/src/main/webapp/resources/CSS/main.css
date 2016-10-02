@@ -75,15 +75,6 @@
       background-image: none;
       border: #000; }
 
-div#about h1 {
-  font-size: 40px;
-  font-family: 'Cabin';
-  text-align: center; }
-div#about h3 {
-  font-size: 28px;
-  font-family: 'Cabin'; }
-div#about p {
-  font-size: 20px; }
 div#about figure {
   margin: 10px 0; }
   div#about figure img.employee {
@@ -99,6 +90,23 @@ div#about div#licence-agreement {
   border: 1px solid #000; }
   div#about div#licence-agreement:hover {
     background-color: rgba(255, 255, 200, 0.6); }
+  div#about div#licence-agreement p {
+    margin: 20px 0; }
+  div#about div#licence-agreement h3 {
+    text-align: center; }
+
+div#book-session {
+  background-color: rgba(255, 255, 200, 0.7);
+  border-radius: 10px;
+  border: 1px solid #AAA;
+  box-shadow: 0 0 10px 10px #AAA; }
+  div#book-session li.next a, div#book-session li.previous a {
+    background-color: #364156;
+    font-size: 20px;
+    color: #9fc1ff;
+    font-family: 'Cabin'; }
+  div#book-session li.next.disabled > a, div#book-session li.previous.disabled > a {
+    opacity: 0.7; }
 
 html {
   position: relative;
@@ -107,6 +115,31 @@ html {
   html body {
     background-color: #dfe4ec;
     margin-bottom: 100px; }
+    html body h1 {
+      font-size: 40px;
+      font-family: 'Cabin';
+      text-align: center; }
+    html body h2 {
+      margin-bottom: 15px; }
+    html body h3 {
+      font-size: 28px;
+      font-family: 'Cabin'; }
+    html body p {
+      font-size: 20px;
+      margin: 5px 0; }
+    html body div.input-group-addon {
+      font-size: 20px;
+      font-family: 'Raleway'; }
+    html body button.btn.btn-primary {
+      background-color: #364156;
+      background-image: none;
+      color: #9fc1ff;
+      outline: none;
+      border: 1px solid #000;
+      font-size: 26px;
+      font-family: 'Cabin'; }
+      html body button.btn.btn-primary:hover {
+        opacity: 0.7; }
   html footer {
     position: absolute;
     bottom: 0;

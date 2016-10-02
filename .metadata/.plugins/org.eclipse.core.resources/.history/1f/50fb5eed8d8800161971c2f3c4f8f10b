@@ -1,0 +1,19 @@
+package com.aviato.pojos;
+import java.io.Serializable;
+import java.util.Date;
+import lombok.Data;
+
+@Data
+public class FlightData implements Serializable {
+
+	private String startingLocation;
+	private String destination;
+	private Date travelDate;
+	private Float price;
+	public String getStartingLocation() {
+		return startingLocation;
+	}
+	public void setStartingLocation(String startingLocation) {
+		this.startingLocation = startingLocation;
+	}
+}

@@ -1,0 +1,5 @@
+package com.aviato.pojos;
+
+public class FlightData {
+
+}

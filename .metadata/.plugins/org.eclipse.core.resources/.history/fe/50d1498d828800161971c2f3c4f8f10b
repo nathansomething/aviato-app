@@ -1,0 +1,10 @@
+package com.aviato.pojos;
+
+@Data
+public class Bribes {
+
+	Float money;
+	Integer bottelsVodka;
+	Integer gramsWeed;
+	Integer ouncesMagicMushrooms;
+}

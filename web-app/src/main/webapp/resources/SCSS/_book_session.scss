@@ -1,0 +1,22 @@
+
+div#book-session {
+
+  background-color: $light_yellow;
+  border-radius: 10px;
+  border: 1px solid #AAA;
+  box-shadow: 0 0 10px 10px #AAA;
+
+  li.next, li.previous {
+    a {
+      background-color: $dark_blue;
+      font-size: 20px;
+      color: $gray_light_blue;
+      font-family: 'Cabin';
+
+    }
+
+    &.disabled > a {
+      opacity: 0.7;
+    }
+  }
+}

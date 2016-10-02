@@ -1,0 +1,12 @@
+package com.aviato.pojos;
+import java.util.Date;
+import lombok.Data;
+
+@Data
+public class FlightData {
+
+	private String startingLocation;
+	private String destination;
+	private Date travelDate;
+	private Float price;
+}

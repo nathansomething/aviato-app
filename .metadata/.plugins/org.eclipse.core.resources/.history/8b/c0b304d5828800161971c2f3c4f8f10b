@@ -1,0 +1,10 @@
+package com.aviato.pojos;
+import lombok.Data;
+
+@Data
+public class BookingRequest {
+
+	DesperatePerson desperatePerson;
+	FlightData flightData;
+	AttractivePerson attractivePerson;
+}

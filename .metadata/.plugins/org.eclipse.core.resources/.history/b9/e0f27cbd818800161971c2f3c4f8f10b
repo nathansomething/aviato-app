@@ -1,0 +1,11 @@
+package com.aviato.pojos;
+
+import java.util.Date;
+
+public class AttractivePerson {
+
+	String profilePicture;
+	String name;
+	String bio;
+	Date birthday;
+}

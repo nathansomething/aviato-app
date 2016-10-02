@@ -1,0 +1,14 @@
+package com.aviato.pojos;
+import java.util.Date;
+import lombok.Data;
+
+@Data
+public class AttractivePerson {
+
+	String firstName;
+	String lastName;
+	String profilePicture;
+	String bio;
+	Date birthday;
+	String gender;
+}

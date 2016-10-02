@@ -1,0 +1,12 @@
+package com.aviato.pojos;
+
+import lombok.Data;
+
+@Data
+public class Bribes {
+
+	Float money;
+	Integer bottelsVodka;
+	Integer gramsWeed;
+	Integer ouncesMagicMushrooms;
+}

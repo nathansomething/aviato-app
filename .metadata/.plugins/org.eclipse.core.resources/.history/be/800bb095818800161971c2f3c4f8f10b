@@ -1,0 +1,8 @@
+package com.aviato.pojos;
+
+public class BookingRequest {
+
+	AttractivePerson attractivePerson;
+	DesperatePerson desperatePerson;
+	FlightData flightData;
+}

@@ -4,15 +4,20 @@ import java.util.Date;
 import java.util.Locale;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.aviato.pojos.FlightData;
+
 @Controller
 public class MainController {
-
+	
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public ModelAndView home(Locale locale) {
 		ModelAndView mv = new ModelAndView();
@@ -22,6 +27,25 @@ public class MainController {
 		String formattedDate = dateFormat.format(date);
 		System.out.println(formattedDate);
 		mv.addObject("serverTime", formattedDate.toString());
+		mv.setViewName("home");
+		return mv;
+	}
+
+	@RequestMapping(value = "/book_session", method = RequestMethod.GET)
+	public ModelAndView book_session(Locale locale) {
+		ModelAndView mv = new ModelAndView();
+	    System.out.println("Navigating to Book Session");
+	    mv.addObject("flightData", new FlightData());
+	    return mv;
+	}
+
+	@RequestMapping(value = "/get_flight_info", method = RequestMethod.POST)
+	public ModelAndView home(@ModelAttribute FlightData flightData) {
+		System.out.println("IN POST REQUEST");
+		System.out.println(flightData.getStartingLocation());
+		System.out.println(flightData.getDestination());
+		System.out.println(flightData.getTravelDate());
+		ModelAndView mv = new ModelAndView();
 		mv.setViewName("home");
 		return mv;
 	}
@@ -52,16 +76,4 @@ public class MainController {
 		return mv;
 	}
 
-  @RequestMapping(value = "/book_session", method = RequestMethod.GET)
-  public ModelAndView book_session(Locale locale) {
-    ModelAndView mv = new ModelAndView();
-    System.out.println("Navigating to Book Session");
-    Date date = new Date();
-    DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-    String formattedDate = dateFormat.format(date);
-    System.out.println(formattedDate);
-    mv.addObject("serverTime", formattedDate.toString());
-    mv.setViewName("book_session");
-    return mv;
-  }
 }
