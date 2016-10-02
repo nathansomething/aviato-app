@@ -8,7 +8,7 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
 	<!-- DispatcherServlet Context: defines this servlet's request-processing infrastructure -->
-	
+
 	<!-- Enables the Spring MVC @Controller programming model -->
 	<annotation-driven />
 
@@ -27,7 +27,7 @@
             <!-- Disable Caching of templates -->
         <beans:property name="cacheable" value="false" />
     </beans:bean>
-	
+
 	<beans:bean id="templateEngine"
           class="org.thymeleaf.spring4.SpringTemplateEngine">
         <beans:property name="templateResolver" ref="templateResolver" />
@@ -36,9 +36,7 @@
     <beans:bean class="org.thymeleaf.spring4.view.ThymeleafViewResolver">
         <beans:property name="templateEngine" ref="templateEngine" />
     </beans:bean>
-    
+
 	<context:component-scan base-package="com.aviato.webapp" />
-	
-	
 	
 </beans:beans>

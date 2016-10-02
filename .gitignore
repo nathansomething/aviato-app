@@ -3,6 +3,8 @@ node/
 node_modules/
 target/
 vendor/
+.metadata/**
+webapp/.metadata/**
+webapp/.metadata/.plugins/**
 .sass-cache
-.metadata/*
-web-app/.metadata/*
+.recommenders/

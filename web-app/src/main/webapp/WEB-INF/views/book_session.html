@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:include="header"></head>
+<body ng-app="aviatoApp">
+  <div th:replace="navbar"></div>
+  <div id="book-session" class="container" ng-controller="BookSession">
+    <!-- <form method="post" action="book_session"> -->
+      <div th:include="select_flight" ng-show="booking_form_page == 1"></div>
+      <div th:include="select_companion" ng-show="booking_form_page == 2"></div>
+      <div th:include="select_bribes" ng-show="booking_form_page == 3"></div>
+      <div th:include="submit_booking" ng-show="booking_form_page == 4"></div>
+      <ul uib-pager="" next-text="Next Page" previous-text="Previous Page"
+          total-items="4" items-per-page="1" ng-model="booking_form_page"></ul>
+    <!-- </form> -->
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <p th:text="${serverTime}"></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,12 +1,12 @@
 {
-  "name": "advance",
-  "description": "Application that connects volunteer seekers with non-profits seeking voluneers",
-  "main": "index.js",
+  "name": "aviato",
+  "description": "Aviato",
+  "main": "src/main/webapp/resources/JAVASCRIPT/main.js",
   "authors": [
     "Nathan Goodman <Nathan.something@gmail.com>"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/nathansomething/advance",
+  "homepage": "",
   "private": true,
   "ignore": [
     "**/.*",

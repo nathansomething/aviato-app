@@ -1,0 +1,13 @@
+<div ng-controller="InfoPane" id="info-panel" class="container">
+  <p>Welcome to Aviato! Please Select Your Status:</p>
+  <uib-tabset active="0">
+    <uib-tab id="desperate" index="1">
+      <uib-tab-heading>I Am Desperate</uib-tab-heading>
+      <div th:replace="info_desperate"></div>
+    </uib-tab>
+    <uib-tab id="attractive" index="2">
+      <uib-tab-heading>I Am Attractive</uib-tab-heading>
+      <div th:replace="info_attractive"></div>
+    </uib-tab>
+  </uib-tabset>
+</div>

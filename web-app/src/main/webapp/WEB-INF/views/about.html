@@ -1,24 +1,100 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head>
-<meta charset="UTF-8"></meta>
-<meta name="viewport" content="width=device-width"></meta>
-<title>Aviato</title>
-<link rel="stylesheet"
-	th:href="@{https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css}"></link>
-<link rel="stylesheet"
-	th:href="@{https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css}"></link>
-<script
-	th:src="@{https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js}"></script>
-<script
-	th:src="@{https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js}"></script>
-<link th:href="@{resources/CSS/main.css}" href="resources/CSS/main.css"  rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-	<h2>About</h2>
-	<div class="container">
+<head th:include="header"></head>
+<body ng-app="aviatoApp">
+  <div th:replace="navbar"></div>
+  <div ng-controller="AboutAviato" id="about" class="container">
+    <h1>About Aviato</h1>
+    <h3>Our Founding Legand</h3>
+    <p>Aviato was founded in 2010 by our CEO Erlich Bachman. Legend is, Bachman was
+      traveling from San Francisco to New York City on a secret government mission,
+      when he was seated next to an annoying, ugly, repulsive woman. For all 5 hours,
+      he was forced to look at this hidious woman, listening to her talk on and on
+      about her ex-boyfriends, her mischevious sister, her newborn nephew...
+      It was almost unbarable! Had Mr. Bachman not been stoned out of his mind,
+      he may have not even survived!</p>
+    <p>After the longest 5 hours of his life, Mr. Bachman thought to himself "gosh that was terrible,
+      I really should have gotten paid for that".</p>
+    <p>And suddenly, a thought occured to him. "Hey, I COULD have gotten paid for that"!</p>
+    <p>When Mr. Bachman returned home from his top secret government mission, he got out
+      his laptop and started coding... And coding... And he coded some more. 62 hours later,
+      Aviato had come into existance.</p>
+    <h3>Our Mission</h3>
+    <p>Aviato strives to be a moral company of the highest fold. We work hard
+      24 hours a day, 7 days a week, 365 days a year, to make sure that lonly people
+      have someone to sit next to on planes, and that awesome attractice people
+      get compensated for having to sit next to these hideous lonly loosers. As
+      long as people still need us, we promise to do our upmost to make the world
+      a better place.</p>
+    <h3>FAQs</h3>
+    <ol>
+      <li>
+        <p>Aviato seems like such a wonderful product. How do I get started using it.</p>
+        <p>Simple. Just go to <a th:href="@{/home}">www.aviato.io</a>, select whether
+          you're desperate or attractive, and get started!</p>
+      </li>
+      <li>
+        <p>What if I don't know whether or not I'm desperate or attractive?</p>
+        <p>Please select desperate. Thank you.</p>
+      </li>
+      <li>
+        <p>If I'm a desperate person, how much bribe money should I give the attractive person?</p>
+        <p>Well, it really depends on how ugly, terrible, and desperate you are.
+          If you're just a little ugly, then maybe you only have a give a little bit of money.
+          But if you're like, holy shit can't stand the face ugly, and on top of
+          that you have a repulsive personality, then well, you better pay up.</p>
+      </li>
+    </ol>
+    <h3>Our Team</h3>
+    <div class="row">
+      <div ng-repeat="employee in employees" class="col-lg-3 col-lg-offset-1">
+        <figure>
+          <img class="employee" th:src="@{/resources/IMAGES/Employees/{{employee}}.jpg}"></img>
+          <figcaption>{{employee.replace('_', ' ')}}</figcaption>
+        </figure>
+      </div>
+    </div>
+    <h3>License Agreement</h3>
+    <p>All Aviato Software is protected under the MIT++ License Agreement. See full text below:</p>
+    <div class="row">
+      <div id="licence-agreement" class="col-lg-8 col-lg-offset-2">
+        <h3>The MIT++ License</h3>
+        <p>Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:</p>
+        <p>The above copyright notice and this permission notice shall be included in
+        all copies or substantial portions of the Software.</p>
+        <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+        THE SOFTWARE.</p>
+        <p>THAT'S RIGHT. IF YOU USE THE SOFTWARE, THEN YOU DO SO AT YOUR OWN RISK.
+        IF THIS PROGRAM ACCIDENTALY SCREWS UP AND DESTROYS DATA ON YOUR PC,
+        ELECTROCUTES YOU,MAKES YOUR MONITOR EXPLODE IN YOUR FACE,
+        SET'S YOUR HOUSE ON FIRE, KILLS YOU,
+        CAUSES EVERYONE ON THE PLANET(AND BEYOND) TO TRY TO KILL YOU,
+        HACKS INTO A NEARBY NUCLEAR MISILE AND TARGETS YOUR HOUSE,
+        CHANGES YOUR BANK BALANCE TO $0, GETS YOU BANNED FROM ONLINE GAMES,
+        ADDS YOUR NAME TO A HITMAN'S LIST,
+        SUCKS YOU INTO THE COMPUTER AND PLAYS PONG WITH YOU(WITH YOU AS BALL),
+        CAUSES SECRET AGENCIES TO COME AFTER YOU,
+        MAKES YOU BELIEVE YOU GOT MAGGOTS CRAWLING UNDER YOUR SKIN,
+        TURNS YOUR ROOM INTO A GATE TO HELL,
+        BECOMES SENTIENT AND STARTS KILLING EVERYONE ON THIS PLANET OR DOES ANYTHING ELSE YOU DON'T WANT IT TO DO,
+        YOU CAN'T SUE US!</p>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
       <p th:text="${serverTime}"></p>
     </div>
+  </footer>
 </body>
 </html>
