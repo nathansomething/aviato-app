@@ -1,9 +1,0 @@
-package com.aviato.pojos;
-
-import java.util.Date;
-
-public class DesperatePerson {
-
-	String name;
-	Date birthday;
-}

@@ -1,8 +1,0 @@
-package com.aviato.pojos;
-
-public class FlightData {
-
-	String startingLocation;
-	String destination;
-	Float price;
-}

@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
+import com.google.gson.JsonObject;
+
 
 import com.aviato.pojos.FlightData;
 
@@ -75,5 +77,5 @@ public class MainController {
 		mv.setViewName("about");
 		return mv;
 	}
-
 }
+

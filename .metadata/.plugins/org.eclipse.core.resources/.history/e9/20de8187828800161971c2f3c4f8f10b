@@ -1,9 +1,0 @@
-package com.aviato.pojos;
-
-@Data
-public class BookingRequest {
-
-	DesperatePerson desperatePerson;
-	FlightData flightData;
-	AttractivePerson attractivePerson;
-}
