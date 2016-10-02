@@ -1,9 +1,0 @@
-package com.aviato.userlogin;
-
-public class FacebookUtils {
-    //keyfields we don't care who sees
-    private static String fbId = "1305051219545441";
-    private static String fbSec = "caecfb1894f0f6c80c5220cb86a55a7c";
-    
-    public static FacebookClient getClientWithAccessTokenAndURL(String token, String authorizedUrl);
-}

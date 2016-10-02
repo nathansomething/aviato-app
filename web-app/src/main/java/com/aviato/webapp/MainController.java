@@ -3,29 +3,18 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import javax.inject.Inject;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-
-import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.aviato.userlogin.FacebookJson;
+import com.aviato.userlogin.FacebookPerson;
 import com.aviato.userlogin.FacebookUtils;
-import com.restfb.DefaultFacebookClient;
 import com.restfb.FacebookClient;
-import com.restfb.FacebookClient.AccessToken;
 import com.restfb.Parameter;
-import com.restfb.Version;
 import com.restfb.json.JsonObject;
-import com.restfb.scope.ScopeBuilder;
+import com.restfb.types.User;
 
 @Controller
 public class MainController {
@@ -83,18 +72,13 @@ public class MainController {
 	}
 	
 	@RequestMapping(value = "/fbloggedin", method = RequestMethod.GET)
-	public @ResponseBody FacebookJson fbLoggedIn(
+	public ModelAndView fbLoggedIn(
 	        @RequestParam("code") String code) {
 	    FacebookClient client =  FacebookUtils.getClient(code, verifiedLoginUrl);
 	    
-	    JsonObject picture = 
-                client.fetchObject("me/picture", 
-                    JsonObject.class, Parameter.with("redirect","false"));
+	    FacebookPerson fp = FacebookUtils.getRelevantDetails(client);
+	    System.out.println(fp);
 	    
-        System.out.println(picture);
-        
-        picture.getString("url");
-	    
-	    return picture;
+	    return new ModelAndView("redirect:home"); // new FacebookJson(picUrl);
 	}
 }
