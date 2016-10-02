@@ -1,0 +1,26 @@
+package com.aviato.flightData;
+
+import java.io.DataOutputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import com.google.gson.JsonObject;
+
+public class FlightQuery {
+    public static void main(String [] args) {
+        URL url = new URL("https://www.googleapis.com/qpxExpress/v1/trips");
+        HttpURLConnection pmConn = (HttpURLConnection) url.openConnection();
+        JsonObject input = new JsonObject();
+        
+    // header
+    pmConn.setRequestMethod("POST");
+    pmConn.setRequestProperty("content-type", "application/json");
+    pmConn.setRequestProperty("accept", "application/json");
+    
+    
+    pmConn.setDoOutput(true);
+    DataOutputStream out = new DataOutputStream(pmConn.getOutputStream());
+    out.writeBytes(params);
+    out.flush();
+    out.close();
+    }
+}
