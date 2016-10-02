@@ -1,0 +1,41 @@
+package com.aviato.userlogin;
+
+import com.restfb.DefaultFacebookClient;
+import com.restfb.FacebookClient;
+import com.restfb.Parameter;
+import com.restfb.Version;
+import com.restfb.FacebookClient.AccessToken;
+import com.restfb.scope.ScopeBuilder;
+
+public class FacebookUtils {
+    //keyfields we don't care who sees
+    public final static String fbId = "1305051219545441";
+    private static String fbSec = "caecfb1894f0f6c80c5220cb86a55a7c";
+    
+    /**
+     * Returns a new Facebook client with the token set based on code
+     * @param code
+     * @param authorizedUrl
+     * @return
+     */
+    public static FacebookClient getClient(String code, String authorizedUrl) {
+        AccessToken token = new DefaultFacebookClient(Version.LATEST).obtainUserAccessToken(
+                fbId, fbSec, authorizedUrl, code);
+        
+        return new DefaultFacebookClient(token.getAccessToken(), Version.LATEST);
+    }
+    
+    /***
+     * 
+     * @param postLoginUrl
+     * @return
+     */
+    public static String getScopedLoginUrl(String postLoginUrl) {
+        ScopeBuilder scopeBuilder = new ScopeBuilder();
+        
+        FacebookClient client = new DefaultFacebookClient(Version.LATEST);
+        
+        String loginUrl = client.getLoginDialogUrl(FacebookUtils.fbId, verifiedLoginUrl, scopeBuilder,
+                Parameter.with("response_type", "code"));
+    }
+}

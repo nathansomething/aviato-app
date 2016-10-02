@@ -1,0 +1,6 @@
+package com.aviato.userlogin;
+
+public class FacebookUtils {
+    private static String fbId = "";
+    private static String fbSec = "";
+}

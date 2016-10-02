@@ -1,0 +1,15 @@
+package com.aviato.userlogin;
+
+import com.restfb.FacebookClient;
+import com.restfb.FacebookClient.AccessToken;
+
+public class FacebookUtils {
+    //keyfields we don't care who sees
+    private static String fbId = "1305051219545441";
+    private static String fbSec = "caecfb1894f0f6c80c5220cb86a55a7c";
+    
+    public static FacebookClient getClient(String code, String authorizedUrl) {
+        AccessToken token = new DefaultFacebookClient.obtainUserAccessToken("1305051219545441", "caecfb1894f0f6c80c5220cb86a55a7c", 
+                "http://localhost:4997/fbloggedin", code);
+    }
+}

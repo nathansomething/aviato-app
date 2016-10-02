@@ -14,17 +14,23 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.aviato.userlogin.FacebookJson;
+import com.aviato.userlogin.FacebookUtils;
 import com.restfb.DefaultFacebookClient;
 import com.restfb.FacebookClient;
 import com.restfb.FacebookClient.AccessToken;
 import com.restfb.Parameter;
 import com.restfb.Version;
+import com.restfb.json.JsonObject;
 import com.restfb.scope.ScopeBuilder;
 
 @Controller
 public class MainController {
+    
+    private String verifiedLoginUrl = "http://localhost:4997/fbloggedin";
     
 
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
@@ -66,38 +72,29 @@ public class MainController {
 		return mv;
 	}
 	
-	@RequestMapping(value = "/fbtest", method = RequestMethod.GET)
+	@RequestMapping(value = "/fblogin", method = RequestMethod.GET)
 	public ModelAndView fbTest(Locale locale) {        
         ModelAndView mv = new ModelAndView();
+        
+	    System.out.println("Verifying User. Sending To Log in");
 	    
-	    ScopeBuilder scopeBuilder = new ScopeBuilder();
-	    
-	    FacebookClient client = new DefaultFacebookClient(Version.LATEST);
-	    
-	    String loginUrl = client.getLoginDialogUrl("1305051219545441", "http://localhost:4997/fbloggedin", scopeBuilder,
-	            Parameter.with("response_type", "code"));
-	    
-	    return new ModelAndView("redirect:" +loginUrl);
-	    /*
-	    System.out.println("Navigating to FBTest");
-	    mv.setViewName("fbTest");
-	    return mv;
-	    */
+	    return new ModelAndView("redirect:" +FacebookUtils.getScopedLoginUrl(verifiedLoginUrl));
 	    
 	}
 	
 	@RequestMapping(value = "/fbloggedin", method = RequestMethod.GET)
-	public ModelAndView fbLoggedIn(
+	public @ResponseBody FacebookJson fbLoggedIn(
 	        @RequestParam("code") String code) {
-	    FacebookClient client = new DefaultFacebookClient(Version.LATEST);
+	    FacebookClient client =  FacebookUtils.getClient(code, verifiedLoginUrl);
 	    
-	    AccessToken token = client.obtainUserAccessToken("1305051219545441", "caecfb1894f0f6c80c5220cb86a55a7c", 
-	            "http://localhost:4997/fbloggedin", code);
+	    JsonObject picture = 
+                client.fetchObject("me/picture", 
+                    JsonObject.class, Parameter.with("redirect","false"));
 	    
-	    System.out.println("Expires: " +token.getExpires().toString());
-	    System.out.println("Actual Token: " +token.getAccessToken());
-	    System.out.println("Token Type: " +token.getTokenType());
+        System.out.println(picture);
+        
+        picture.getString("url");
 	    
-	    return null;
+	    return picture;
 	}
 }

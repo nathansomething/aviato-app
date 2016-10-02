@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.social.connect.ConnectionRepository"/>
+<fullyQualifiedTypeName name="javax.inject.Inject"/>
+<fullyQualifiedTypeName name="org.springframework.social.connect.Connection"/>
+<fullyQualifiedTypeName name="org.springframework.social.facebook.api.Facebook"/>
+<fullyQualifiedTypeName name="org.springframework.social.facebook.api.User"/>
+<fullyQualifiedTypeName name="org.springframework.social.config.annotation.SocialConfigurer"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="org.springframework.social.connect.support.ConnectionFactoryRegistry"/>
+<fullyQualifiedTypeName name="org.springframework.social.facebook.connect.FacebookConnectionFactory"/>
+<fullyQualifiedTypeName name="org.springframework.social.connect.ConnectionFactoryLocator"/>
+</qualifiedTypeNameHistroy>
