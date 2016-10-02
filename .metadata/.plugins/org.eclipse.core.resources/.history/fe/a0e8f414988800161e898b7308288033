@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"></meta>
+<meta name="viewport" content="width=device-width"></meta>
+<title>Aviato</title>
+<link rel="stylesheet"
+    th:href="@{https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css}"></link>
+<link rel="stylesheet"
+    th:href="@{https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css}"></link>
+<script
+    th:src="@{https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js}"></script>
+<script
+    th:src="@{https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js}"></script>
+<link th:href="@{resources/CSS/main.css}" href="resources/CSS/main.css"  rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h2>Flight Data</h2>
+    <div class="container">
+      <p th:text="${Flight Data}"></p>
+      <table> 
+        <tr>
+            <th> Solution </th>
+            <th> Number </th>
+            <th> Sales Price </th>
+        </tr>
+        <tr th:text= "Flight Data: ${Flight Data}">
+            <td> </td>
+            <td th:text= "${Flight Data.tripNumber + 1}">  
+                <table>
+                    <>
+                </table>
+           </td>
+               
+            <td th:text= "${flightdata.salesPrice}"> </td>
+        </tr>
+      </table>11
+    </div>
+</body>
+</html>

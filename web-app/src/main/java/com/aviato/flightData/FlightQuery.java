@@ -185,5 +185,5 @@ public class FlightQuery {
     output.add("request", request);
 
     return output.toString();
-  }
+  }  
 }

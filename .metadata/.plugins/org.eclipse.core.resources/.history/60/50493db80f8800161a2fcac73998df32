@@ -1,6 +1,0 @@
-package com.aviato.flightData;
-
-public class FlightQuery {
-    private String request = "";
-    private String 
-}
