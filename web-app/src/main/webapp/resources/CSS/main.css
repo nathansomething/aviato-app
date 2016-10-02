@@ -1,5 +1,7 @@
+@import "https://fonts.googleapis.com/css?family=Raleway";
 #main_navbar {
   margin: 0;
+  margin-bottom: 100px;
   padding: 0;
   box-shadow: 0 0 5px 10px #6097FD;
   border-radius: 0;
@@ -33,7 +35,56 @@
       background-image: url("../IMAGES/aviato-logo.png");
       height: 400px; } }
 
-body p {
-  color: green; }
+#info-panel {
+  margin-top: 40px;
+  font-size: 34px;
+  font-family: 'Raleway', sans-serif; }
+  #info-panel a {
+    font-size: 24px; }
+  #info-panel .tab-content {
+    font-size: 16px; }
+  #info-panel ul.nav.nav-tabs {
+    border: 0; }
+  #info-panel ul li {
+    margin: 0 10px; }
+    #info-panel ul li.active > a {
+      color: #9fc1ff;
+      padding: 15px;
+      border: 1px solid #000; }
+    #info-panel ul li a {
+      outline: none;
+      padding: 15px;
+      border: 1px solid #000;
+      border-radius: 5px; }
+      #info-panel ul li a.attractive {
+        background-color: #b90b0b;
+        color: #dfe4ec; }
+      #info-panel ul li a.desperate {
+        background-color: #86642f;
+        color: #dfe4ec; }
+      #info-panel ul li a:hover {
+        opacity: 0.7; }
+  #info-panel div#desperate, #info-panel div#attractive {
+    margin: 10px;
+    font-size: 20px; }
+    #info-panel div#desperate button.btn, #info-panel div#attractive button.btn {
+      width: 50%;
+      margin: auto;
+      font-size: 20px;
+      background-color: #6097FD;
+      color: #364156;
+      background-image: none;
+      border: #000; }
+
+body {
+  background-color: #dfe4ec; }
+
+footer {
+  margin-top: 100px;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+  footer p {
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

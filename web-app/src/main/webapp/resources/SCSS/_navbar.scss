@@ -1,12 +1,13 @@
 #main_navbar {
 
   margin: 0;
+  margin-bottom: 100px;
   padding: 0;
-  box-shadow: 0 0 5px 10px #6097FD;
+  box-shadow: 0 0 5px 10px $light_blue;
   border-radius: 0;
   border: 0;
 
-  background-color: #6097FD;
+  background-color: $light_blue;
   background-repeat: no-repeat;
   background-position: center;
 
@@ -20,17 +21,16 @@
       list-style: none;
       padding: 25px;
       margin: 0 10px;
-      background-color: #364156;
-      border: 1px solid #000;
+      background-color: $dark_blue;
+      border: 1px solid $black;
       border-radius: 5px;
-      color: #9fc1ff;
+      color: $gray_light_blue;
       font-size: 26px;
 
       &:hover {
         opacity: 0.7;
         cursor: pointer;
       }
-
     }
   }
 
