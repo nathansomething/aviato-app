@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename field &apos;cleanJson&apos; in &apos;com.aviato.flightData.FlightQuery&apos; to &apos;finalJson&apos;&#x0D;&#x0A;- Original project: &apos;web-app&apos;&#x0D;&#x0A;- Original element: &apos;com.aviato.flightData.FlightQuery.cleanJson&apos;&#x0D;&#x0A;- Renamed element: &apos;com.aviato.flightData.FlightQuery.finalJson&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;cleanJson&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src\/main\/java&lt;com.aviato.flightData{FlightQuery.java[FlightQuery^cleanJson" name="finalJson" references="true" setter="false" stamp="1475386910424" textual="false" version="1.0"/>
-</session>
