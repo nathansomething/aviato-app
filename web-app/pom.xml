@@ -120,6 +120,12 @@
 			<version>4.7</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.restfb/restfb -->
+		<dependency>
+			<groupId>com.restfb</groupId>
+			<artifactId>restfb</artifactId>
+			<version>1.31.0</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -182,24 +188,24 @@
 						</configuration>
 					</execution>
 					<execution>
-	          <id>bower install</id>
-	          <goals>
-	              <goal>bower</goal>
-	          </goals>
-	          <configuration>
-	              <arguments>install</arguments>
-	          </configuration>
-          </execution>
-          <execution>
+						<id>bower install</id>
+						<goals>
+							<goal>bower</goal>
+						</goals>
+						<configuration>
+							<arguments>install</arguments>
+						</configuration>
+					</execution>
+					<execution>
 						<id>grunt build</id>
 						<goals>
-						  <goal>grunt</goal>
+							<goal>grunt</goal>
 						</goals>
 						<phase>generate-resources</phase>
 						<configuration>
-						  <arguments>default</arguments>
+							<arguments>default</arguments>
 						</configuration>
-          </execution>
+					</execution>
 				</executions>
 			</plugin>
 			<plugin>
