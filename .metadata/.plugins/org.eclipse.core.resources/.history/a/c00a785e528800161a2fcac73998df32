@@ -1,4 +1,4 @@
-package com.aviato.flightData;
+//package com.aviato.flightData;
 
 import java.io.DataOutputStream;
 import java.io.DataInputStream;
@@ -39,45 +39,38 @@ public class FlightQuery {
    * Part 4.  curl -d (transforming to or from server)
    *          We send the request via formatting our json as string and then via DataOutputStream,
    *          and then receive a JSON via DataInputStream, and we then convert that json string
-   *          into a JsonObject.
-   * Part 5.
+   *          into a JsonObject
+   *
    */
-  //public static void main(String[] args) {
-    public JsonObject cleanJson = getJsonFromApi("BOS", "ATL", "2016-10-02");
-  //}
-
-  /**
-   * This method takes care of submitting a JSON (String) to the QPX API and retrieving a JSON,
-   * returning a JsonObject.
-   * @param currentLocation   A String, the current location.
-   * @param destinationLocation   The destination location.
-   * @param date1 The date to depart.
-   * @return  JsonObject of the response from API
-   */
-  public JsonObject getJsonFromApi(String currentLocation, String destinationLocation, String date1) {
+  public static void main(String[] args) {
     URL url;
     HttpURLConnection con;
     DataOutputStream out;
     DataInputStream input;
     StringBuilder resultBuf;
     JsonParser parser;
-    JsonObject queryResult = new JsonObject();
+    JsonObject queryResult;
     try {
-      //method to take string location and find nearest airport city
-
       /**
-       * Part 2. URL setup.
+       * Part 2.
        */
+      String currentLocation = "BOS";
+      String destinationLocation = "ATL";
+      String date1 = "2016-10-02";
+      String date2 = "2016-10-03";
+
       url = new URL("https://www.googleapis.com/qpxExpress/v1/trips/search?key=AIzaSyCl9j-z6n8xFBxlZ9e-mcGwXcKoZLzc9qw");
       con = (HttpURLConnection) url.openConnection();
 
       /**
-       * Part 3. More HTTP URL Connection setup.
+       * Part 3.
        */
+      // curl: post, set the content type of your request to application.json
       con.setRequestMethod("POST");
       con.setRequestProperty("content-type", "application/json");
       con.setRequestProperty("accept", "application/json");
 
+      // do output and do input
       con.setDoOutput(true);
       con.setDoInput(true);
 
@@ -85,11 +78,11 @@ public class FlightQuery {
        * Part 4a. Output.
        */
       out = new DataOutputStream(con.getOutputStream());
-      out.writeBytes(createJSONRequest(currentLocation, destinationLocation, date1));
+      out.writeBytes(createJSONRequest(currentLocation, destinationLocation, date1, date2));
       out.flush();
       out.close();
 
-      System.out.println(createJSONRequest(currentLocation, destinationLocation, date1));
+      //System.out.println(createJSONRequest(currentLocation, destinationLocation, date1, date2));
 
       /**
        * Part 4b. Server Response.
@@ -104,7 +97,7 @@ public class FlightQuery {
        */
       input = new DataInputStream(con.getInputStream());
 
-      //  Supposedly reads the contents of the InputStream as String, doesn't work.
+      ////  Supposedly reads the contents of the InputStream as String, doesn't work.
       // String response = input.readUTF();
 
       // Using StringBuilder should work
@@ -115,6 +108,7 @@ public class FlightQuery {
       }
       input.close();
       String response = resultBuf.toString();
+      //System.out.println(response);
 
       /**
        * Part 4c. Create JsonObject.
@@ -122,9 +116,8 @@ public class FlightQuery {
       // Json parser parses string response and creates a JsonObject
       parser = new JsonParser();
       queryResult = parser.parse(response).getAsJsonObject();
-
-      System.out.println(queryResult);
-      return queryResult;
+      // getAsJsonObject takes a String member and returns appropriate JSON
+      //System.out.println(queryResult);
     }
     catch (MalformedURLException e) {
       // TODO Auto-generated catch block
@@ -134,7 +127,6 @@ public class FlightQuery {
       // TODO Auto-generated catch block
       e.printStackTrace();
     }
-    return queryResult;
   }
 
   /**
@@ -142,9 +134,11 @@ public class FlightQuery {
    * @param curr  current location
    * @param dest  destination
    * @param date1  date of departure to destination
+   * @param date2 date of arrival from destination.
    * @return a String representation of the Json Object with the given parameters
    */
-  public String createJSONRequest(String curr, String dest, String date1) {
+  public static String createJSONRequest(String curr, String dest, String date1,
+                                         String date2) {
     JsonObject output = new JsonObject();
 
     JsonObject request = new JsonObject();
@@ -159,14 +153,15 @@ public class FlightQuery {
     JsonPrimitive current = new JsonPrimitive(curr);
     JsonPrimitive destination = new JsonPrimitive(dest);
     JsonPrimitive departDate = new JsonPrimitive(date1);
+    JsonPrimitive arriveDate = new JsonPrimitive(date2);
 
     departure.add("origin", current);
     departure.add("destination", destination);
     departure.add("date", departDate);
 
-//    arrival.add("origin", destination);
-//    arrival.add("destination", current);
-//    arrival.add("date", arriveDate);
+    arrival.add("origin", destination);
+    arrival.add("destination", current);
+    arrival.add("date", arriveDate);
 
     passengers.add("adultCount", new JsonPrimitive(2));
     passengers.add("infantInLapCount", new JsonPrimitive(0));
@@ -175,7 +170,7 @@ public class FlightQuery {
     passengers.add("seniorCount", new JsonPrimitive(0));
 
     slice.add(departure);
-//    slice.add(arrival);
+    slice.add(arrival);
 
     request.add("slice", slice);
     request.add("passengers", passengers);

@@ -1,4 +1,4 @@
-package com.aviato.flightData;
+//package com.aviato.flightData;
 
 import java.io.DataOutputStream;
 import java.io.DataInputStream;
@@ -39,12 +39,12 @@ public class FlightQuery {
    * Part 4.  curl -d (transforming to or from server)
    *          We send the request via formatting our json as string and then via DataOutputStream,
    *          and then receive a JSON via DataInputStream, and we then convert that json string
-   *          into a JsonObject.
+   *          into a JsonObject. Declutter all unnecessary information from JsonObject, before returning.
    * Part 5.
    */
-  //public static void main(String[] args) {
-    public JsonObject cleanJson = getJsonFromApi("BOS", "ATL", "2016-10-02");
-  //}
+  public static void main(String[] args) {
+    JsonObject cleanJson = getJsonFromApi("BOS", "ATL", "2016-10-02", "2016-10-03");
+  }
 
   /**
    * This method takes care of submitting a JSON (String) to the QPX API and retrieving a JSON,
@@ -52,9 +52,10 @@ public class FlightQuery {
    * @param currentLocation   A String, the current location.
    * @param destinationLocation   The destination location.
    * @param date1 The date to depart.
+   * @param date2 The date of arrival.
    * @return  JsonObject of the response from API
    */
-  public JsonObject getJsonFromApi(String currentLocation, String destinationLocation, String date1) {
+  public static JsonObject getJsonFromApi(String currentLocation, String destinationLocation, String date1, String date2) {
     URL url;
     HttpURLConnection con;
     DataOutputStream out;
@@ -85,11 +86,10 @@ public class FlightQuery {
        * Part 4a. Output.
        */
       out = new DataOutputStream(con.getOutputStream());
-      out.writeBytes(createJSONRequest(currentLocation, destinationLocation, date1));
+      out.writeBytes(createJSONRequest(currentLocation, destinationLocation, date1, date2));
       out.flush();
       out.close();
 
-      System.out.println(createJSONRequest(currentLocation, destinationLocation, date1));
 
       /**
        * Part 4b. Server Response.
@@ -142,9 +142,11 @@ public class FlightQuery {
    * @param curr  current location
    * @param dest  destination
    * @param date1  date of departure to destination
+   * @param date2 date of arrival from destination.
    * @return a String representation of the Json Object with the given parameters
    */
-  public String createJSONRequest(String curr, String dest, String date1) {
+  public static String createJSONRequest(String curr, String dest, String date1,
+                                         String date2) {
     JsonObject output = new JsonObject();
 
     JsonObject request = new JsonObject();
@@ -159,14 +161,15 @@ public class FlightQuery {
     JsonPrimitive current = new JsonPrimitive(curr);
     JsonPrimitive destination = new JsonPrimitive(dest);
     JsonPrimitive departDate = new JsonPrimitive(date1);
+    JsonPrimitive arriveDate = new JsonPrimitive(date2);
 
     departure.add("origin", current);
     departure.add("destination", destination);
     departure.add("date", departDate);
 
-//    arrival.add("origin", destination);
-//    arrival.add("destination", current);
-//    arrival.add("date", arriveDate);
+    arrival.add("origin", destination);
+    arrival.add("destination", current);
+    arrival.add("date", arriveDate);
 
     passengers.add("adultCount", new JsonPrimitive(2));
     passengers.add("infantInLapCount", new JsonPrimitive(0));
@@ -175,7 +178,7 @@ public class FlightQuery {
     passengers.add("seniorCount", new JsonPrimitive(0));
 
     slice.add(departure);
-//    slice.add(arrival);
+    slice.add(arrival);
 
     request.add("slice", slice);
     request.add("passengers", passengers);
@@ -187,5 +190,14 @@ public class FlightQuery {
     output.add("request", request);
 
     return output.toString();
+  }
+
+  /**
+   * Cleans up a JsonObject returned by the API to return a JsonObject with only relevant information.
+   * @param dis1  The cluttered JsonObject
+   * @return a cleaner JsonObject
+   */
+  public static JsonObject cleanUpJsonObj(JsonObject dis1) {
+
   }
 }

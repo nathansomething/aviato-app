@@ -54,7 +54,7 @@ public class FlightQuery {
    * @param date1 The date to depart.
    * @return  JsonObject of the response from API
    */
-  public JsonObject getJsonFromApi(String currentLocation, String destinationLocation, String date1) {
+  public static JsonObject getJsonFromApi(String currentLocation, String destinationLocation, String date1) {
     URL url;
     HttpURLConnection con;
     DataOutputStream out;
@@ -144,7 +144,7 @@ public class FlightQuery {
    * @param date1  date of departure to destination
    * @return a String representation of the Json Object with the given parameters
    */
-  public String createJSONRequest(String curr, String dest, String date1) {
+  public static String createJSONRequest(String curr, String dest, String date1) {
     JsonObject output = new JsonObject();
 
     JsonObject request = new JsonObject();
