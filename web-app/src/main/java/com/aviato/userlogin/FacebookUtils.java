@@ -1,5 +1,9 @@
 package com.aviato.userlogin;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
 import com.restfb.DefaultFacebookClient;
 import com.restfb.FacebookClient;
 import com.restfb.Parameter;
@@ -19,8 +23,19 @@ public class FacebookUtils {
     
     public static final String url = "jdbc:mysql://etwixt.com:3306/etwixtdb";
     public static final String user = "erlich";
-    public static final String pass = "bachman";    
+    public static final String pass = "bachman";
+    
+    /**
+     * get Connection for this thing
+     */
+    public static final Connection getAviatoConnection() throws SQLException {
+        DriverManager.registerDriver(new com.mysql.jdbc.Driver());
+        return DriverManager.getConnection(url, user, pass);
+    }
    
+    
+    
+    
     /**
      * Returns a new Facebook client with the token set based on code
      * @param code

@@ -81,4 +81,10 @@ public class MainController {
 	    
 	    return new ModelAndView("redirect:home"); // new FacebookJson(picUrl);
 	}
+	
+	@RequestMapping(value = "/book", method = RequestMethod.POST)
+    public ModelAndView book() {
+        return null;
+	    
+	}
 }

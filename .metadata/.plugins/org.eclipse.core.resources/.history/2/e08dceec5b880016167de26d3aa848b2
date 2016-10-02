@@ -1,9 +1,0 @@
-package com.aviato.userlogin;
-
-public class FacebookJson {
-    String picUrl;
-    
-    public String getPicUrl() {
-        
-    }
-}
