@@ -4,3 +4,5 @@ node_modules/
 target/
 vendor/
 .sass-cache
+.metadata/*
+web-app/.metadata/*

@@ -17,6 +17,9 @@ public class FacebookUtils {
     public final static String fbId = "1305051219545441";
     private final static String fbSec = "caecfb1894f0f6c80c5220cb86a55a7c";
     
+    public static final String url = "jdbc:mysql://etwixt.com:3306/etwixtdb";
+    public static final String user = "erlich";
+    public static final String pass = "bachman";    
    
     /**
      * Returns a new Facebook client with the token set based on code
