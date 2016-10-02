@@ -69,6 +69,7 @@ public class MainController {
         JsonObject myFlight = new FlightQuery("BOS", "ATL", "2016-10-2").getJson();
         mv.addObject("Flight Data", myFlight);
         
+        
         return mv;
     }
 }
