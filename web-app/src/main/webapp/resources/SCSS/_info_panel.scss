@@ -1,7 +1,6 @@
 #info-panel {
   margin-top: 40px;
   font-size: 34px;
-  font-family: 'Raleway', sans-serif;
 
   a {
     font-size: 24px;
@@ -20,10 +19,19 @@
 
       margin: 0 10px;
 
-      &.active > a {
-        color: $gray_light_blue;
-        padding: 15px;
-        border: 1px solid $black;
+      &:hover > a, &.active > a {
+        opacity: 0.7;
+      }
+
+      &#attractive > a {
+        background-color: #b90b0b;
+        color: $white;
+
+      }
+
+      &#desperate > a {
+        background-color: #86642f;
+        color: $white;
       }
 
       a {
@@ -31,28 +39,12 @@
         padding: 15px;
         border: 1px solid $black;
         border-radius: 5px;
-
-        &.attractive {
-          background-color: #b90b0b;
-          color: $white;
-
-        }
-
-        &.desperate {
-          background-color: #86642f;
-          color: $white;
-        }
-
-        &:hover {
-          opacity: 0.7;
-        }
-
       }
     }
   }
 
-  div#desperate, div#attractive {
-    margin: 10px;
+  div#desperate-info, div#attractive-info {
+    margin: 20px;
     font-size: 20px;
 
     button.btn {

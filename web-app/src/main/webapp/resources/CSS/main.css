@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css?family=Raleway";
+@import "https://fonts.googleapis.com/css?family=Raleway|Cabin";
 #main_navbar {
   margin: 0;
   margin-bottom: 100px;
@@ -12,6 +12,10 @@
   background-image: url("../IMAGES/aviato-logo.png");
   height: 300px;
   width: 100%; }
+  #main_navbar a {
+    color: inherit;
+    text-decoration: none;
+    outline: none; }
   #main_navbar ul {
     position: absolute;
     bottom: 30px;
@@ -37,8 +41,7 @@
 
 #info-panel {
   margin-top: 40px;
-  font-size: 34px;
-  font-family: 'Raleway', sans-serif; }
+  font-size: 34px; }
   #info-panel a {
     font-size: 24px; }
   #info-panel .tab-content {
@@ -47,27 +50,23 @@
     border: 0; }
   #info-panel ul li {
     margin: 0 10px; }
-    #info-panel ul li.active > a {
-      color: #9fc1ff;
-      padding: 15px;
-      border: 1px solid #000; }
+    #info-panel ul li:hover > a, #info-panel ul li.active > a {
+      opacity: 0.7; }
+    #info-panel ul li#attractive > a {
+      background-color: #b90b0b;
+      color: #dfe4ec; }
+    #info-panel ul li#desperate > a {
+      background-color: #86642f;
+      color: #dfe4ec; }
     #info-panel ul li a {
       outline: none;
       padding: 15px;
       border: 1px solid #000;
       border-radius: 5px; }
-      #info-panel ul li a.attractive {
-        background-color: #b90b0b;
-        color: #dfe4ec; }
-      #info-panel ul li a.desperate {
-        background-color: #86642f;
-        color: #dfe4ec; }
-      #info-panel ul li a:hover {
-        opacity: 0.7; }
-  #info-panel div#desperate, #info-panel div#attractive {
-    margin: 10px;
+  #info-panel div#desperate-info, #info-panel div#attractive-info {
+    margin: 20px;
     font-size: 20px; }
-    #info-panel div#desperate button.btn, #info-panel div#attractive button.btn {
+    #info-panel div#desperate-info button.btn, #info-panel div#attractive-info button.btn {
       width: 50%;
       margin: auto;
       font-size: 20px;
@@ -76,15 +75,46 @@
       background-image: none;
       border: #000; }
 
-body {
-  background-color: #dfe4ec; }
+div#about h1 {
+  font-size: 40px;
+  font-family: 'Cabin';
+  text-align: center; }
+div#about h3 {
+  font-size: 28px;
+  font-family: 'Cabin'; }
+div#about p {
+  font-size: 20px; }
+div#about figure {
+  margin: 10px 0; }
+  div#about figure img.employee {
+    border-radius: 5px; }
+  div#about figure figcaption {
+    font-size: 24px;
+    font-family: 'Cabin';
+    text-align: center;
+    width: 300px;
+    background-color: rgba(255, 255, 200, 0.6); }
+div#about div#licence-agreement {
+  background-color: rgba(255, 255, 200, 0.9);
+  border: 1px solid #000; }
+  div#about div#licence-agreement:hover {
+    background-color: rgba(255, 255, 200, 0.6); }
 
-footer {
-  margin-top: 100px;
-  position: absolute;
-  bottom: 0;
-  width: 100%; }
-  footer p {
-    text-align: center; }
+html {
+  position: relative;
+  min-height: 100%;
+  font-family: 'Raleway', sans-serif; }
+  html body {
+    background-color: #dfe4ec;
+    margin-bottom: 100px; }
+  html footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    margin-top: 60px;
+    width: 100%;
+    height: 60px; }
+    html footer p {
+      text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

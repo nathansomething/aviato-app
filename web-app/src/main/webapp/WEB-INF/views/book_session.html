@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:include="header"></head>
+<body ng-app="aviatoApp">
+  <div th:replace="navbar"></div>
+  <div class="container">
+    <div th:replace="select_flight_info"></div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <p th:text="${serverTime}"></p>
+    </div>
+  </footer>
+</body>
+</html>

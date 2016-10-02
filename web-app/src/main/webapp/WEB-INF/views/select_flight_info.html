@@ -1,0 +1,17 @@
+<form method="post" action="get_flight_info">
+
+  <label for="firstName">First name:</label>
+  <input type="text" />
+
+  <label for="lastName">Last name:</label>
+  <input type="text" />
+
+  <label for="paymentMethod">Payment method:</label>
+  <!-- Use th:field to select *{paymentMethod} -->
+  <select>
+      <!-- Iterate on ${paymentMethods} -->
+      <option>Credit card</option>
+  </select>
+
+  <input type="submit" />
+</form>

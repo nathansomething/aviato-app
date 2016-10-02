@@ -5,8 +5,8 @@ module.exports = function(grunt) {
     bower_concat: {
   	  all: {
   	    dest: {
-  	      'js': 'vendor/_bower.js',
-  	      'css': 'vendor/_bower.css'
+  	      'js': 'src/main/webapp/resources/VENDOR/_bower.js',
+  	      'css': 'src/main/webapp/resources/VENDOR/_bower.css'
   	    },
   	    exclude: ['google-fonts']
       }

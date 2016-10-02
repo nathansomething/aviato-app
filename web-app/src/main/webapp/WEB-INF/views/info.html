@@ -1,15 +1,13 @@
-<div id="info-panel" class="container">
+<div ng-controller="InfoPane" id="info-panel" class="container">
   <p>Welcome to Aviato! Please Select Your Status:</p>
-  <ul class="nav nav-tabs">
-    <li><a class="desperate" href="#desperate" aria-controls="desperate" role="tab" data-toggle="tab">I Am Desperate</a></li>
-    <li><a class="attractive" href="#attractive" aria-controls="attractive" role="tab" data-toggle="tab">I Am Attractive</a></li>
-  </ul>
-  <div class="tab-content">
-    <div id="desperate" class="tab-pane">
-      <div th:replace="info-loosers"></div>
-    </div>
-    <div id="attractive" class="tab-pane">
-      <div th:replace="info-sexy-ppl"></div>
-    </div>
-  </div>
+  <uib-tabset active="0">
+    <uib-tab id="desperate" index="1">
+      <uib-tab-heading>I Am Desperate</uib-tab-heading>
+      <div th:replace="info_desperate"></div>
+    </uib-tab>
+    <uib-tab id="attractive" index="2">
+      <uib-tab-heading>I Am Attractive</uib-tab-heading>
+      <div th:replace="info_attractive"></div>
+    </uib-tab>
+  </uib-tabset>
 </div>

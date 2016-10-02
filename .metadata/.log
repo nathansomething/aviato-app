@@ -1950,3 +1950,90 @@ org.eclipse.core.internal.resources.ResourceException: Resource is out of sync w
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2016-10-01 17:49:55.541
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-10-01 20:15:43.835
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-10-01 20:15:43.837
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-10-01 20:16:00.805
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-10-01 20:16:00.821
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-10-01 20:16:00.826
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2016-10-01 20:16:20.224
+!MESSAGE JSDT AbstractIndexer attempted to index a field with no name, this should never happen.
+typeName: String
+declaringType: ___anonymous_types
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2016-10-01 20:16:38.053
+!MESSAGE JSDT AbstractIndexer attempted to index a field with no name, this should never happen.
+typeName: Number
+declaringType: ___anonymous_example
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2016-10-01 20:16:46.428
+!MESSAGE JSDT AbstractIndexer attempted to index a field with no name, this should never happen.
+typeName: String
+declaringType: ___anonymous_types
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2016-10-01 20:18:06.897
+!MESSAGE JSDT AbstractIndexer attempted to index a field with no name, this should never happen.
+typeName: Number
+declaringType: ___anonymous_example
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-10-01 20:20:16.549
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-10-01 20:20:16.554
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2016-10-01 20:23:33.058
+!MESSAGE JSDT AbstractIndexer attempted to index a field with no name, this should never happen.
+typeName: Number
+declaringType: ___anonymous_example
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2016-10-01 20:24:58.692
+!MESSAGE JSDT AbstractIndexer attempted to index a field with no name, this should never happen.
+typeName: String
+declaringType: ___anonymous_types
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-10-01 20:34:03.921
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-10-01 20:34:03.922
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-10-01 20:52:10.887
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-10-01 20:52:10.889
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-10-01 21:01:11.169
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-10-01 21:01:11.172
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-10-01 21:01:22.055
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-10-01 21:01:22.056
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-10-01 21:42:27.473
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-10-01 21:42:27.475
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-10-01 21:42:52.480
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-10-01 21:42:52.481
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!

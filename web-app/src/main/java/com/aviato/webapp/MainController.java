@@ -25,11 +25,11 @@ public class MainController {
 		mv.setViewName("home");
 		return mv;
 	}
-	
-	@RequestMapping(value = "/signup", method = RequestMethod.GET)
+
+	@RequestMapping(value = "/register", method = RequestMethod.GET)
 	public ModelAndView signup(Locale locale) {
 		ModelAndView mv = new ModelAndView();
-		System.out.println("Navigating to Signup");
+		System.out.println("Navigating to Register");
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
 		String formattedDate = dateFormat.format(date);
@@ -38,7 +38,7 @@ public class MainController {
 		mv.setViewName("signup");
 		return mv;
 	}
-	
+
 	@RequestMapping(value = "/about", method = RequestMethod.GET)
 	public ModelAndView about(Locale locale) {
 		ModelAndView mv = new ModelAndView();
@@ -51,4 +51,17 @@ public class MainController {
 		mv.setViewName("about");
 		return mv;
 	}
+
+  @RequestMapping(value = "/book_session", method = RequestMethod.GET)
+  public ModelAndView book_session(Locale locale) {
+    ModelAndView mv = new ModelAndView();
+    System.out.println("Navigating to Book Session");
+    Date date = new Date();
+    DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
+    String formattedDate = dateFormat.format(date);
+    System.out.println(formattedDate);
+    mv.addObject("serverTime", formattedDate.toString());
+    mv.setViewName("book_session");
+    return mv;
+  }
 }
